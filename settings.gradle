@@ -1,0 +1,4 @@
+rootProject.name = 'ddd-spring-reactive'
+include 'ddd-templates'
+include 'ddd-bounded-context'
+
