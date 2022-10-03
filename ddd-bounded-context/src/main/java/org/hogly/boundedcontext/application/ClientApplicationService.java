@@ -1,5 +1,6 @@
-package org.hogly.boundedcontext.domain.client;
+package org.hogly.boundedcontext.application;
 
+import org.hogly.boundedcontext.domain.client.ClientAggregate;
 import org.hogly.boundedcontext.domain.client.services.ClientDomainService;
 import org.hogly.boundedcontext.domain.client.services.ClientMapper;
 import org.hogly.boundedcontext.domain.client.valueobjects.Client;

@@ -1,7 +1,7 @@
 package org.hogly.boundedcontext.infrastructure.api.client;
 
 import lombok.AllArgsConstructor;
-import org.hogly.boundedcontext.domain.client.ClientApplicationService;
+import org.hogly.boundedcontext.application.ClientApplicationService;
 import org.hogly.boundedcontext.domain.client.valueobjects.ClientId;
 import org.springframework.web.bind.annotation.*;
 import reactor.core.publisher.Flux;
