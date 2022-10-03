@@ -1,0 +1,15 @@
+logging:
+  level:
+    org.springframework.r2dbc: DEBUG
+
+spring:
+  # Datasource Configurations
+  h2:
+    console:
+      enabled: true
+  # R2DBC Configuration
+  r2dbc:
+    url: r2dbc:h2:mem:///testdb
+    username: sa
+    password:
+    initialization-mode: always
